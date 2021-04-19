@@ -1,0 +1,30 @@
+friends = ["Kevin","Ron","John"]
+print(friends)
+print(friends[1])
+my_info = ["Jim" , 23 , True , "Red" , "Chicken"]
+print(my_info)
+print(my_info[0])
+print(my_info[-1])
+print(my_info[1:])
+print(my_info[1:4])
+
+friends = ["Kevin","Ron","John","Oscar","Ron"]
+lucky_numbers =[4,8,3,2]
+friends.append("Toby")
+print(friends)
+friends.insert(1,"Rachel")
+print(friends)
+friends.remove("Rachel")
+friends.pop()
+print(friends)
+print(friends.count("Ron"))
+lucky_numbers.sort()
+print(lucky_numbers)
+lucky_numbers.reverse()
+print(lucky_numbers)
+friends2 = friends.copy()
+print(friends2)
+friends.extend(lucky_numbers)
+print(friends)
+friends.clear()
+print(friends)
